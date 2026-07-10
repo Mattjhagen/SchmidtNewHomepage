@@ -127,7 +127,11 @@
 
   /* CTA */
   .cta{position:relative;overflow:hidden;background:var(--primary);color:#fff;text-align:center;padding:88px 0}
+<<<<<<< HEAD
   .cta-bg{position:absolute;inset:0;background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#2d5a3d 100%);opacity:.6}
+=======
+  .cta-bg{position:absolute;inset:0;background-image:url('images/lakefront-seawall-omaha.jpg');background-size:cover;background-position:center;opacity:.28}
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
   .cta .wrap{position:relative;z-index:2}
   .cta h2{font-size:clamp(2rem,3.6vw,2.8rem);font-weight:800;margin-bottom:16px;letter-spacing:-.02em}
   .cta p{color:#cbd5e1;max-width:52ch;margin:0 auto 30px;font-size:1.1rem}
@@ -148,16 +152,39 @@
   .footer-bottom a:hover{color:#e2e8f0}
 
   /* SCROLL REVEAL */
+<<<<<<< HEAD
   .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
   .reveal.in{opacity:1;transform:none}
   .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+=======
+    .reveal{opacity:1;transform:none;transition:opacity .6s cubic-bezier(.16,1,.3,1),transform .6s cubic-bezier(.16,1,.3,1)}
+  .js-reveal .reveal:not(.in){opacity:0;transform:translateY(24px)}
+  .js-reveal
+  .reveal.in{opacity:1;transform:none}
+  .reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}
+
+  /* --- Photo/logo integration --- */
+  .brand{display:inline-flex;align-items:center;text-decoration:none}
+  .brand-logo{height:34px;width:auto;display:block}
+  .footer-logo{height:40px;width:auto;margin-bottom:14px}
+  .whyimg img{width:100%;height:100%;object-fit:cover;display:block}
+  /* Before/after real images */
+  .ba{position:relative;overflow:hidden}
+  .ba-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none;user-select:none}
+  .after-clip .ba-img-before{width:var(--ba-w,900px);max-width:none}
+  @media(max-width:760px){.brand-logo{height:28px}}
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
 </style>
 </head>
 <body>
 
 <nav>
   <div class="wrap">
+<<<<<<< HEAD
     <div class="brand">SCHMIDT<span>.</span> CONSTRUCTION</div>
+=======
+    <a class="brand" href="#top"><img src="images/logo-white-text.png" alt="Schmidt Construction" class="brand-logo"></a>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
     <div class="navlinks">
       <a href="#services">Services</a>
       <a href="#why">Why Us</a>
@@ -170,6 +197,7 @@
 </nav>
 
 <header class="hero">
+<<<<<<< HEAD
   <div class="hero-slide" style="background:linear-gradient(135deg,#0b1220 0%,#1e3a5f 40%,#2d5a3d 100%)"></div>
   <div class="hero-slide" style="background:linear-gradient(135deg,#0b1220 0%,#374151 40%,#1e3a5f 100%)"></div>
   <div class="hero-slide" style="background:linear-gradient(135deg,#0b1220 0%,#14532d 40%,#164e63 100%)"></div>
@@ -178,12 +206,26 @@
     <p class="eyebrow">Omaha, NE · Est. 1985</p>
     <h1>Retaining Walls, Concrete &amp; <em>Remodeling</em> Done Right</h1>
     <p class="lead">Family-owned craftsmanship the Omaha metro has trusted for 35+ years. Built to last — with proper drainage on every project.</p>
+=======
+  <div class="hero-slide" style="background-image:url('images/timber-retaining-wall-hero.jpg')"></div>
+  <div class="hero-slide" style="background-image:url('images/block-retaining-wall-steps.jpg')"></div>
+  <div class="hero-slide" style="background-image:url('images/concrete-driveway-omaha.jpg')"></div>
+  <div class="hero-scrim"></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Omaha, NE · Est. 1976</p>
+    <h1>Retaining Walls, Concrete &amp; <em>Remodeling</em> Done Right</h1>
+    <p class="lead">Family-owned craftsmanship the Omaha metro has trusted for 50 years. Built to last — with proper drainage on every project.</p>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
     <div class="btns">
       <a class="btn-primary" href="#contact">Get Your Free Estimate</a>
       <a class="btn-ghost" href="#work">View Our Work</a>
     </div>
     <div class="trust">
+<<<<<<< HEAD
       <span>✓ <b>35+ years</b> in business</span>
+=======
+      <span>✓ <b>50 years</b> in business</span>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
       <span>✓ <b>Licensed</b> &amp; Insured</span>
       <span>✓ <b>Free</b> Estimates</span>
     </div>
@@ -201,7 +243,11 @@
     </div>
     <div class="grid4">
       <a class="card card-retaining reveal" href="#contact">
+<<<<<<< HEAD
         <div class="bg"></div>
+=======
+        <div class="bg" style="background-image:url('images/timber-wall-landscaped.jpg')"></div>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
         <div class="glass">
           <h3>Retaining Walls</h3>
           <p>Timber, block &amp; boulder walls built to last.</p>
@@ -209,7 +255,11 @@
         </div>
       </a>
       <a class="card card-concrete reveal d1" href="#contact">
+<<<<<<< HEAD
         <div class="bg"></div>
+=======
+        <div class="bg" style="background-image:url('images/concrete-driveway-omaha.jpg')"></div>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
         <div class="glass">
           <h3>Concrete</h3>
           <p>Driveways, patios &amp; stamped concrete.</p>
@@ -217,7 +267,11 @@
         </div>
       </a>
       <a class="card card-seawall reveal d2" href="#contact">
+<<<<<<< HEAD
         <div class="bg"></div>
+=======
+        <div class="bg" style="background-image:url('images/lakefront-seawall-omaha.jpg')"></div>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
         <div class="glass">
           <h3>Seawalls</h3>
           <p>Lakefront &amp; shoreline protection.</p>
@@ -225,7 +279,11 @@
         </div>
       </a>
       <a class="card card-landscape reveal d3" href="#contact">
+<<<<<<< HEAD
         <div class="bg"></div>
+=======
+        <div class="bg" style="background-image:url('images/stamped-patio-garden-wall.jpg')"></div>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
         <div class="glass">
           <h3>Landscapes</h3>
           <p>Steps, patios &amp; hardscape features.</p>
@@ -242,9 +300,15 @@
     <div class="reveal">
       <div class="accentbar" style="margin:0 0 22px"></div>
       <h2>Why Omaha Chooses Schmidt Construction</h2>
+<<<<<<< HEAD
       <p class="body">Since 1985, we've built a reputation for doing the job right the first time. As a family-owned business, our name is on every wall we build and every project we complete.</p>
       <ul class="checks">
         <li><span class="ck">✓</span> 35+ years serving the Omaha metro</li>
+=======
+      <p class="body">Since 1976, we've built a reputation for doing the job right the first time. As a family-owned business, our name is on every wall we build and every project we complete.</p>
+      <ul class="checks">
+        <li><span class="ck">✓</span> 50 years serving the Omaha metro</li>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
         <li><span class="ck">✓</span> Every project includes proper drainage</li>
         <li><span class="ck">✓</span> Licensed, bonded, and fully insured</li>
         <li><span class="ck">✓</span> Free on-site estimates</li>
@@ -252,7 +316,11 @@
       </ul>
     </div>
     <div class="whyimg reveal d1">
+<<<<<<< HEAD
       <!-- Replace with actual project photo -->
+=======
+      <img src="images/concrete-craftsmanship.jpg" alt="Schmidt Construction craftsmanship on a concrete project">
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
     </div>
   </div>
 </section>
@@ -263,6 +331,7 @@
     <div class="sec-head reveal">
       <div class="accentbar"></div>
       <h2>See the Transformation</h2>
+<<<<<<< HEAD
       <p>Drag the slider to see the difference our work makes. Real Omaha-area projects.</p>
     </div>
     <div class="ba-wrap reveal d1">
@@ -275,6 +344,17 @@
           <div class="ba-after" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center">
             <span style="color:#93c5fd;font-size:1.1rem;font-weight:600">After photo</span>
           </div>
+=======
+      <p>Drag the slider — a failing stone wall replaced with an engineered block retaining wall, built with proper drainage to last.</p>
+    </div>
+    <div class="ba-wrap reveal d1">
+      <div class="ba" id="ba">
+        <!-- Base layer = AFTER (finished block wall), revealed on the right -->
+        <img class="ba-img" src="images/after-block-retaining-wall.jpg" alt="After: finished block retaining wall">
+        <!-- Clip layer = BEFORE (failing stone wall), shown on the left up to the handle -->
+        <div class="after-clip" id="afterClip">
+          <img class="ba-img ba-img-before" src="images/before-failing-stone-wall.jpg" alt="Before: failing stone wall">
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
         </div>
         <span class="tag l">Before</span>
         <span class="tag r">After</span>
@@ -328,8 +408,13 @@
   <div class="footer-inner">
     <div class="footer-cols">
       <div>
+<<<<<<< HEAD
         <div class="footer-brand">SCHMIDT<span>.</span> CONSTRUCTION</div>
         <p class="footer-desc">Family-owned retaining wall, concrete &amp; remodeling contractor serving the Omaha metro since 1985. Licensed &amp; insured.</p>
+=======
+        <img src="images/logo-white-text.png" alt="Schmidt Construction" class="footer-logo">
+        <p class="footer-desc">Family-owned retaining wall, concrete &amp; remodeling contractor serving the Omaha metro since 1976. Licensed &amp; insured.</p>
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
       </div>
       <div class="footer-col">
         <h4>Services</h4>
@@ -355,21 +440,56 @@
 </footer>
 
 <script>
+<<<<<<< HEAD
   // Scroll reveal
   const io = new IntersectionObserver((es) => {
     es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
   }, { threshold: .15 });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+=======
+  // Scroll reveal — robust: content is readable by default, animates in only when safely off-screen
+  const reveals = document.querySelectorAll('.reveal');
+  const revealEl = el => el.classList.add('in');
+  if ('IntersectionObserver' in window) {
+    document.body.classList.add('js-reveal');
+    const io = new IntersectionObserver((es) => {
+      es.forEach(e => { if (e.isIntersecting) { revealEl(e.target); io.unobserve(e.target); } });
+    }, { threshold: 0, rootMargin: '0px 0px 15% 0px' });
+    const settle = () => {
+      const vh = window.innerHeight;
+      reveals.forEach(el => {
+        if (el.classList.contains('in')) return;
+        if (el.getBoundingClientRect().top < vh * 1.4) revealEl(el);
+        else io.observe(el);
+      });
+    };
+    settle();
+    window.addEventListener('load', settle);
+    setTimeout(settle, 300);
+    setTimeout(() => reveals.forEach(revealEl), 2000); // absolute failsafe
+  }
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
 
   // Hero dots sync
   const dots = document.querySelectorAll('.hero-dots i');
   let di = 0;
   setInterval(() => { di = (di + 1) % 3; dots.forEach((d, i) => d.classList.toggle('on', i === di)); }, 8000);
 
+<<<<<<< HEAD
   // Before/after slider
   const ba = document.getElementById('ba');
   const clip = document.getElementById('afterClip');
   const h = document.getElementById('handle');
+=======
+  // Before/after slider (keeps the clipped BEFORE image aligned to full width)
+  const ba = document.getElementById('ba');
+  const clip = document.getElementById('afterClip');
+  const h = document.getElementById('handle');
+  const beforeImg = clip ? clip.querySelector('.ba-img-before') : null;
+  function syncWidth() {
+    if (ba && beforeImg) ba.style.setProperty('--ba-w', ba.getBoundingClientRect().width + 'px');
+  }
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
   function setpos(x) {
     const r = ba.getBoundingClientRect();
     let p = (x - r.left) / r.width;
@@ -377,6 +497,12 @@
     clip.style.width = (p * 100) + '%';
     h.style.left = (p * 100) + '%';
   }
+<<<<<<< HEAD
+=======
+  syncWidth();
+  window.addEventListener('resize', syncWidth);
+  window.addEventListener('load', () => { syncWidth(); setpos(ba.getBoundingClientRect().left + ba.getBoundingClientRect().width * 0.5); });
+>>>>>>> 023108b012d7bd3e5e06c8730df71a36812c941d
   let drag = false;
   ba.addEventListener('mousedown', e => { drag = true; setpos(e.clientX); });
   window.addEventListener('mousemove', e => { if (drag) setpos(e.clientX); });
